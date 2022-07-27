@@ -1,38 +1,93 @@
 .App {
-  text-align: center;
+  padding: 50px;
+  width: 800px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 1000px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.d-flex {
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.grow1 {
+  flex: 1
+}
+
+.grow3 {
+  flex: 3
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-50{
+    padding: 50px
+}
+.register {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 30px;
+  width: 400px;
+  height: auto;
+  
+  background-color: azure;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.register input {
+  width: 300px;
+  margin: 20px;
+  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.register button {
+  width: 100px;
+
+}
+.usercard {
+  width: 200px;
+  margin: 20px;
+ 
+}
+.usercard img {
+  width:100px;
+}
+.msg {
+  color: red;
 }
